@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;900&display=swap');
+
+.right-detail{
+    margin-left:25px;
+}
+.right-detail .p-1 {
+    font-size: 24px;
+    color: #ff35d2;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sec2-h3 {
+    font-size:52px;
+    color: #000;
+    font-weight:900;
+    margin-bottom: 10px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.right-detail .p-2 {
+    font-size: 18px;
+    color: #595959;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+.right-detail .btn-links-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-gap: 15px;
+    gap: 15px;
+    align-items: center;
+}
+.right-detail .btn-links-wrap .disc-btn {
+    text-transform: uppercase;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 20px 27px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+    gap: 15px;
+    border-radius: 37px;
+    background-color: #fc9862;
+}
+.right-detail .btn-links-wrap .disc-btn:hover{
+    background-color: #ff35d2;
+}
+.btn-links-wrap .social-links {
+    display: flex;
+}
+.btn-links-wrap .social-links a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+    gap: 15px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    font-style: italic;
+    padding: 0 15px;
+}
+.social-links .twit-link .line-vert {
+    position: absolute;
+    right: 0;
+    width: 2px;
+    height: 15px;
+    border-right: 2px solid #000;
+}
+.gif{
+    border-radius:10px!important;
+    overflow:hidden;
+}
+.img-fluid{
+    border-radius:10px!important;
+    width:100%!important;
+}
+.found-p {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+    gap: 15px;
+    color: #707072;
+    margin-top:30px;
+}
+
+.span1 {
+    color: #ff35d2;
+}

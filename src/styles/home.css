@@ -1,0 +1,288 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;900&display=swap');
+h1 {
+    text-align: left;
+    font-size: 70px;
+    font-weight:900;
+    margin-bottom: 20px;
+    line-height: 1.15em;
+    letter-spacing: 1px;
+    background-color: #ffc7a9;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-family: 'Zen Kurenaido', sans-serif; */
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.container-md.sec-1 {
+    height: 100vh
+}
+
+p {
+    line-height: 1.5;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+.sec1-wrapper {
+    background: url("../assets/hero1.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.shade {
+    width: 100%;
+    height: 100vh;
+    background: #31101b;
+    opacity: .6;
+    position: absolute;
+}
+
+.sec-1 {
+    z-index: 11
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1087px;
+}
+
+.top-link {
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    pointer-events: none;
+}
+.top-link div {
+    font-size: 1.4rem;
+    margin-top: .2rem;
+    margin-left: .4rem;
+    pointer-events:visible;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.top-link div:hover{
+    color: rgb(250, 104, 250);
+}
+.top-link i {
+    color: rgb(250, 104, 250);
+    font-size: 2rem;
+    pointer-events:visible;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.mint-container {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: #fff;
+    z-index: 11
+}
+
+.mint-container p {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.mint-container h3 {
+    font-size: 1.5rem;
+    font-weight:500;
+    color: rgb(250, 104, 250);
+    /* font-family: 'Zen Kurenaido', sans-serif!important; */
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.mint-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+    color:#ffffff;
+    position: relative;
+    top:90px;
+}
+
+.mint-detail p {
+    font-size: 1.2rem;
+    width: 270px !important;
+    margin-left: -150px !important;
+    position: relative;
+    left: 20px;
+}
+
+.mint-detail img {
+    width: 12rem;
+    position:relative;
+    
+}
+
+.mint-detail h3 {
+    color: #fff;
+    margin: .8rem 0 1rem;
+    text-align: left;
+    font-size:30px;
+    font-weight:900;
+    margin-bottom: 20px;
+    line-height: 1.15em;
+    letter-spacing: 1px;
+    background-color: #ffc7a9;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.mint-detail button {
+    border-radius: 37px;
+    background-color: #ffc7a9;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.mint-detail div {
+    display: flex;
+    align-items: center;
+}
+
+.mint-detail div img {
+    width: 1.4rem;
+    margin-left: 1rem;
+}
+
+.mint-detail img {
+    width: 12rem;
+}
+
+.mint-btn {
+    border-radius: 37px;
+    background-color: #ffc7a9;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.brand {
+    width: 105%
+}
+
+.meta {
+    margin-bottom: 15px;
+}
+
+.coinbase {
+    margin-bottom: 15px;
+}
+
+.catmin {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.slider {
+    position: relative;
+    z-index: 2;
+    -webkit-appearance: none;
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(252, 155, 252, 0.76);
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(250, 104, 250);
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 0 0 rgb(250, 104, 250);
+    transition: .3s ease-in-out;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(250, 104, 250, 0.295);
+}
+
+.slider:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 18px rgba(250, 104, 250, 0.295);
+}
+
+.mint-btn:hover,
+.mint-detail button:hover {
+    background-color:#ff35d2;
+    color:#050505!important;
+}
+
+.rotate{
+    transform:rotate(360deg)!important;
+}
+.eth{
+    position:relative;
+    top:-40px;
+}
+@media (max-width:992px){
+  .shade{
+      height:100vh;
+  }
+  .sec-1{
+      height:auto!important;
+  }
+  .sec-1 h1{
+        font-size:3.5rem;
+  }
+  .mint-detail h3{
+      text-align: center;
+  }
+  .mint-detail button{
+      padding: .8rem .8rem;
+  }
+  .gif{
+      overflow: visible;
+      width: 100%;
+  }
+  .desc-main .row{ 
+      display: block!important;
+  }
+  .desc-main .row .col-md-6{
+      width:100%!important;
+  }
+}
+@media (max-width:768px){
+    .shade{
+        height:103.5vh;
+    }
+    .sec-1{
+       text-align: center;
+       height:100%!important;
+    }
+    .sec-1 h1{
+          font-size:3.5rem;
+          text-align: center;
+    }
+    .mint-detail {
+        display: none;
+    }
+    .sec1-wrapper{
+        height: auto!important;
+    }
+}
